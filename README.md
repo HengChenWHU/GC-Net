@@ -9,6 +9,11 @@ Geometry and Context Network
 - Numpy 1.11.0
 - PIL 4.1.1
 
+### Related Work
+- [LinHungShi / GCNetwork](https://github.com/LinHungShi/GCNetwork)
+
+- [MaidouPP/gc_net_stereo](https://github.com/MaidouPP/gc_net_stereo)
+
 ### How to run
 - First, Use `generate_image_list.py` to generate an image list file, e.g. `train.lst`, which records the absolute image file paths.
 
@@ -16,7 +21,7 @@ Geometry and Context Network
 
 - `n` is the index of gpu. If there is no pretrained model, `pretrain` option should be `false`
 ```
-   CUDA_VISIBLE_DEVICES=n python main.py --gpu n --phase train --max_steps 50000 --learning_rate 0.00005 --output_dir /home/users/shixin.li/segment/gc-net/log/0508 --pretrain true
+CUDA_VISIBLE_DEVICES=n python main.py --gpu n --phase train --max_steps 50000 --learning_rate 0.00005 --output_dir $HOME/Applications/GC-Net/log/ --pretrain true
 ```
 
 ### Something Else
