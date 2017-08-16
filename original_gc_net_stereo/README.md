@@ -1,3 +1,6 @@
+### Reference: https://github.com/MaidouPP/gc_net_stereo
+
+
 **gc_net_stereo** is the implementation according to paper: **End-to-End Learning of Geometry and Context for Deep Stereo Regression** which can be found in https://arxiv.org/abs/1703.04309 
 
 
